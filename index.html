@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="description" content="Projeto feito na semana mapadev week">
+  <meta name="author" content="Luiz Carlos">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maiores artilheiros do Flamengo</title>
+  <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/estilos.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+  <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img src="src/imagens/escudo.png" alt="escudo do Flamengo" class="escudo" />
+    <h1 class="titulo">Maiores Artilheiros</h1>
+  </header>
+
+  <main class="artilheiro-slider">
+    <button class="btn-seta btn-voltar" id="btn-voltar">
+      <img src="src/imagens/seta.png" alt="seta voltar" />
+    </button>
+
+    <ul class="lista-artilheiros">
+      <li class="cartao selecionado fundo-1">
+        <div class="informacoes">
+          <h2 class="nome">Zico</h2>
+          <p class="vida">Flamengo: 1971 A 1983</p>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/zico.png" alt="Zico" class="imagem-artilheiro" />
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">Nascido em Quintino, o jovem Arthur começou sua trajetória no esporte jogando futsal pelo Juventude, equipe tradicional do bairro so subúrbio carioca. história dele no Flamengo começou aos 14 anos de idade.Ao chegar ao Flamengo, Zico ganhou outra alcunha: “Galinho”, por causa do seu físico franzino</p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-2">
+        <div class="informacoes">
+          <h2 class="nome">Dida</h2>
+          <p class="vida">Flamengo: 1954 A 1963</p>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/dida.png" alt="Dida" class="imagem-artilheiro" />
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">Edvaldo Alves de Santa Rosa, mais conhecido como Dida, completaria 87 anos de idade nesta sexta-feira, dia 26, se estivesse vivo. Dida é o segundo maior artilheiro da história do Flamengo, com 264 gols em 357 jogos, ficando atrás apenas do maior ídolo da história do clube da Gávea, Zico.</p>
+        </div>
+      </li>
+
+      <li class="cartao fundo-3">
+        <div class="informacoes">
+          <h2 class="nome">Henrique Frade</h2>
+          <p class="vida">Flamengo: 1954 A 1963</p>
+        </div>
+
+        <div class="container-imagem">
+          <img src="src/imagens/henrique_frade.png" alt="Frade" class="imagem-artilheiro" />
+        </div>
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">Henrique Frade é o 3º maior artilheiro da história do Flamengo. Só Zico e Dida fizeram mais gols com a camisa rubro-negra do que ele. E a propósito, embora tenha jogado num intervalo de anos no qual o clube conquistou poucos títulos, o que com certeza faz com que seu nome não seja lembrado com mais força na galeria de maiores jogadores a terem atuado em vermelho e preto em todos os tempos, foram anos em que a dupla Henrique e Dida, usando respectivamente as camisas 9 e 10, jogaram num nível altíssimo, pois os dois atuavam juntos, e estão entre os três em toda a história a terem feitos mais gols, só Zico balançou as redes mais do que esta dupla usando o Manto Sagrado.</p>
+        </div>
+      </li>
+    </ul>
+
+    <button class="btn-seta" id="btn-avancar">
+      <img src="src/imagens/seta.png" alt="seta avançar" />
+    </button>
+  </main>
+
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>
